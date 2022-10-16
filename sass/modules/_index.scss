@@ -61,6 +61,32 @@
     font-style: italic;
 }
 
+#button_section
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: center;
+
+    width: 200px;
+    margin-top: 20px;
+}
+
+#button_section div
+{
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #2d61ba;
+    box-shadow:  5px 5px 11px #21488a,
+                 -5px -5px 11px #397aea;
+}
+
+#button_section div:hover
+{
+    background-color: #ffff;
+    color: #21488a;
+}
+
 
 .hidden {
     display: none;
