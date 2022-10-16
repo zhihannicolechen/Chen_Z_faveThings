@@ -1,16 +1,10 @@
-//start with imports (order is important)
-@import "./modules/_reset.scss";
-@import "./modules/_zhihan.scss";
+@import './modules/reset';
+@import "./modules/zhc";
 
-// import mobile styles first
-@import "./modules/_defaults.scss";
-@import "./modules/_queries.scss";
+@import './modules/defaults';
+@import './modules/queries';
 
-//component files next
+@import './modules/index';
 
-@import "./modules/_main.scss";
-@import "./modules/_header.scss";
-@import "./modules/_footer.scss";
- 
-//atomic files go here
-@import "./modules/_biopanel.scss";
+
+@import "./modules/_panel.scss";
