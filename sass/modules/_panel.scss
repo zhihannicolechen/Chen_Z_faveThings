@@ -1,0 +1,28 @@
+.bio_panel {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+
+    .name {
+        text-transform: uppercase;
+        font-size: 2em;
+        margin-bottom: 0.4em;
+    }
+
+    .desc {
+        font-size: 0.8em;
+    }
+
+    .avatar {
+        margin-top: 1em;
+
+    }
+
+    .avatar img
+    {
+        width: 100%;
+    }
+
+
+
+
+}

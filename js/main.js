@@ -1,43 +1,40 @@
-// imports always go at the top of the file
-//this is called an IIFE (Immediately invoked function expression)
 import { getData } from "./modules/dataMiner.js";
-
-//its a pretty common JavaScript programming patterm also called a module file
 (() => {
     console.log('fired!');
+    let theThings = document.querySelector("#about_section"),
+        theTemplate = document.querySelector("#bio-template").content,
+        faveData;
 
-    let theTeam = document.querySelector('#team-section'),
-        theTemplate = document.querySelector('#bio-template').content;
-
-    //debugger;
-
-    function buildTeam(data) {
-        // get all the keys (names) from the data object and use that to iterate through the data
+    function buildThings(data) {
+        //get all the keys (names) from the data object and use that to iterate through the data
         debugger;
-        
-        const people = Object.keys(data);
-        //data 0bject.keys creates an array
 
-        people.forEach(prof => {
-            //copy the template's contents
+        faveData = data;
+        
+        const things = Object.keys(data); //Object.keys creates an array
+
+        things.forEach(thing => {
             let panel = theTemplate.cloneNode(true);
-            //get a reference to the template's elements
             let containers = panel.firstElementChild.children;
 
-            containers[0].querySelector("img").src = `images/${data[prof].avatar}`;
-
-            containers[1].textContent = data[prof].name;
-            containers[2].textContent = data[prof].role;
-            containers[3].textContent = data[prof].nickname;
-
-            theTeam.appendChild(panel);
+            containers[0].querySelector("img").src = `images/${data[thing].avatar}`;
+            containers[0].querySelector("img").id = thing;
+            containers[0].querySelector("img").addEventListener('click', showThing);
+            containers[1].textContent = data[thing].name;
+            
+            
+            theThings.appendChild(panel);
         })
-        //let theName = document.querySelector('.user-name'),
-        //theDesc = document.querySelector('.user-bio');
 
-        //theName.textContent = data.name;
-        //theDesc.textContent = data.eyeColor;
-    } 
+    }
 
-    getData(buildTeam);
+   function showThing() {
+        debugger;
+
+        let currentThing = faveData[this.id];
+        
+   }
+    
+
+    getData(`./data.json`, buildThings);
 })();

@@ -1,0 +1,67 @@
+.main 
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    align-items: center;
+
+    margin: 10em;
+
+}
+
+.intro_text
+{
+    justify-content: center;
+
+    margin-top: 10em;
+    
+}
+
+.intro_img
+{
+    display: flex;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.intro_img img
+{
+    width: 100%;
+}
+
+.tittle
+{
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+    margin: 0;
+    padding-bottom: 100px;
+    padding-top: 0;
+}
+
+.text
+{
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 20px;
+    
+    padding-bottom: 100px;
+    line-height: 100x;
+}
+
+.text span
+{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+.hidden {
+    display: none;
+}

@@ -1,32 +1,17 @@
 {
-    "Justin": {
-        "name":"Justin",
-        "role":"Coordinator",
-        "nickname":"i don't know",
-        "avatar":"justin.jpg"
+    "fave1": {
+        "name":"watch movies",
+        "avatar":"watch.jpg",
+        "desc":"Movie nights bring together families, friends, and couples. They make us laugh and connect us, while we’re having time together. Now during Coronavirus, we all miss going to the cinema with our friends, or on a date. "
     },
-    "John": {
-        "name":"John",
-        "role":"super chill prof",
-        "nickname":"just john",
-        "avatar":"john.jpg"
+    "fave2": {
+        "name":"making food",
+        "avatar":"food.jpg",
+        "desc":"Preparing food at home can be especially beneficial for people who has a food allergy. Eating homemade foods is usually much cheaper than eating at a restaurant or buying processed foods from the market."
     },
-    "Joe": {
-        "name":"Joe",
-        "role":"Prof",
-        "nickname":"Teddy Bear",
-        "avatar":"joe.jpg"
-    },
-    "Pan": {
-        "name":"Pan",
-        "role":"Code Ninja",
-        "nickname":"Spider Pan",
-        "avatar":"pan.jpg"
-    },
-    "Trevor": {
-        "name":"Trevor",
-        "role":"Dark Arts Prof",
-        "nickname":"T Dazzle",
-        "avatar":"trevor.jpg"
+    "fave3": {
+        "name":"travel",
+        "avatar":"travel.jpg",
+        "desc":"Travel Relieves Stress, although missing a connecting flight or losing baggage in a foreign airport is sure to boost your anxiety, traveling has been scientifically proven to lower stress levels, and rather dramatically."
     }
   }
