@@ -1,10 +1,11 @@
-@import './modules/reset';
-@import "./modules/zhc";
+@import "./modules/_reset.scss";
+@import "./modules/_zhc.scss";
 
-@import './modules/defaults';
-@import './modules/queries';
+@import "./modules/_defaults.scss";
+@import "./modules/_queries.scss";
 
-@import './modules/index';
+@import "./modules/_index.scss";
+@import "./modules/_button.scss";
 
 
 @import "./modules/_panel.scss";
