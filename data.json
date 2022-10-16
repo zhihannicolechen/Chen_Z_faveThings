@@ -2,16 +2,19 @@
     "fave1": {
         "name":"watch movies",
         "avatar":"watch.jpg",
+        "quote":"Movies can and do have tremendous influence in shaping young lives in the realm of entertainment towards the ideals and objectives of normal adulthood. - Walt Disney",
         "desc":"Movie nights bring together families, friends, and couples. They make us laugh and connect us, while we’re having time together. Now during Coronavirus, we all miss going to the cinema with our friends, or on a date. "
     },
     "fave2": {
         "name":"making food",
         "avatar":"food.jpg",
+        "quote":"Cooking is all about people. Food is maybe the only universal thing that really has the power to bring everyone together. No matter what culture, everywhere around the world, people get together to eat. - Guy Fieri",
         "desc":"Preparing food at home can be especially beneficial for people who has a food allergy. Eating homemade foods is usually much cheaper than eating at a restaurant or buying processed foods from the market."
     },
     "fave3": {
         "name":"travel",
         "avatar":"travel.jpg",
+        "quote":"The world is a book and those who do not travel read only one page. - Saint Augustine",
         "desc":"Travel Relieves Stress, although missing a connecting flight or losing baggage in a foreign airport is sure to boost your anxiety, traveling has been scientifically proven to lower stress levels, and rather dramatically."
     }
   }

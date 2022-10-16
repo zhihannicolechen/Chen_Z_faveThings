@@ -1,27 +1,51 @@
-.bio_panel {
-    text-align: center;
-    font-family: Helvetica, sans-serif;
+#lboxBig
+{
+    display: flex;
+    
+
+}
+
+.lbox
+{
+    justify-content: center;
+    display: none;
+}
+.bio_panel
+{
+   
+    width: 300px;
+    justify-content: center;
+    margin: 6em;
+    padding: 10px;
+    background-color: #fff;
+    color: #2d61ba;
+    border-radius: 5%;
+    font-family: 'Noto Sans Display', sans-serif;
 
     .name {
         text-transform: uppercase;
-        font-size: 2em;
+        font-family: 'Righteous', cursive;
+        font-size: 16px;
         margin-bottom: 0.4em;
+        padding: 10px;
     }
-
+    
     .desc {
-        font-size: 0.8em;
+        padding: 10px;
+        
     }
 
+    .quote
+    {
+        font-style: italic;
+    }
+    
     .avatar {
-        margin-top: 1em;
-
-        width: 200px;
-
+        width: 50%;
     }
-
+    
     .avatar img
     {
         width: 100%;
     }
-
 }

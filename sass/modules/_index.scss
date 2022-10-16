@@ -2,6 +2,7 @@
 {
     margin: 0;
     padding: 0;
+    display: flex;
 
     font-family: 'Noto Sans Display', sans-serif;
 }
@@ -64,11 +65,13 @@
 #button_section
 {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-area: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
 
-    width: 200px;
-    margin-top: 20px;
+    margin-top: 12px;
+
+    font-family: 'Righteous', cursive;
+    text-align: center;
 }
 
 #button_section div
