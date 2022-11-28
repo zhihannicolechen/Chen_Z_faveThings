@@ -9,7 +9,7 @@ Download the zip file and starts with index.html file then open the website, use
 # Authors
 Zhihan Chen
 
-# Programs
+# Program
 * HTML
 * sass
 * Javascript
