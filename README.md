@@ -6,9 +6,6 @@ Let me introduce my three favourite things. The pictures and descriptions that c
 
 Download the zip file and starts with index.html file then open the website, use go live with VS code to see the full function.
 
-# Authors
-Zhihan Chen
-
 # Program
 * HTML
 * sass
